@@ -1,36 +1,15 @@
-<meta http-equiv="refresh" content="0; url='https://opprdev.github.io/repo-template-datasets/web/index.html'" />
-
-# Datasets Repository Template
+# Importing All GitHub Repositories
 
 <img src="assets/banner_468x60.png" width="100%" />
 
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg?style=flat-square)](https://github.com/opprDev/repo-template-datasets/blob/master/LICENSE)
-[![Last commit](https://img.shields.io/github/last-commit/opprDev/repo-template-datasets?style=flat-square)](https://github.com/opprDev/repo-template-datasets/commits/master)
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg?style=flat-square)](https://github.com/opprDev/repos-importer/blob/master/LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/opprDev/repos-importer?style=flat-square)](https://github.com/opprDev/repos-importer/commits/master)
 [![OpenCollective](https://opencollective.com/oppr/backers/badge.svg?style=flat-square)](#backers)
 [![OpenCollective](https://opencollective.com/oppr/sponsors/badge.svg?style=flat-square)](#sponsors)
 [![Gitter](https://img.shields.io/gitter/room/gitterHQ/gitter.svg?style=flat-square)](https://gitter.im/opprTeam)
 [![Twitter](https://flat.badgen.net/twitter/follow/opprGroup)](https://twitter.com/opprGroup)
 
-Several *datasets* are fostering innovation in higher-level functions for everyone, everywhere. By providing this repository, we hope to encourage the research community to focus on hard problems. In this repository, we aim to provide a template repository for *datasets*. The repository was developed by a community of people under the [opprDev](https://dev.oppr.io/) Team from [oppr](https://oppr.io/). This template will be used in [BreastScreening](https://breastscreening.github.io/), [MIDA](https://mida-project.github.io/) and [MIMBCD-UI](https://mimbcd-ui.github.io/) projects.
-
-## Citing
-
-[![DOI](https://zenodo.org/badge/252470291.svg?style=flat-square)](https://zenodo.org/badge/latestdoi/252470291)
-
-We kindly ask **scientific works and studies** that make use of the repository to cite it in their associated publications. Similarly, we ask **open-source** and **closed-source** works that make use of the repository to warn us about this use.
-
-You can cite our work using the following BibTeX entry:
-
-```
-@misc{https://doi.org/10.5281/zenodo.3738763,
-  doi = {10.5281/ZENODO.3738763},
-  url = {https://zenodo.org/record/3738763},
-  author = {Calisto,  Francisco Maria},
-  title = {opprDev/repo-template-datasets: v0.1.1-alpha},
-  publisher = {Zenodo},
-  year = {2020}
-}
-```
+If you have a GitHub organization and want to `clone` all repositories, you can use this [solution based provided](https://stackoverflow.com/a/68108153/2371987) by [@Bryan Guner](https://stackoverflow.com/users/15158587/bryan-guner) on [StackOverflow](https://stackoverflow.com). The repository was developed by a community of people under the [opprDev](https://dev.oppr.io/) Team from [oppr](https://oppr.io/). This solution will be used in [BreastScreening](https://breastscreening.github.io/), [MIDA](https://mida-project.github.io/) and [MIMBCD-UI](https://mimbcd-ui.github.io/) research projects.
 
 ## Table of contents
 
@@ -40,7 +19,6 @@ You can cite our work using the following BibTeX entry:
 * [Contributing](#Contributing)
 * [License & Copyright](#License--Copyright)
 * [Team](#Team)
-* [Acknowledgements](#Acknowledgements)
 
 ## Prerequisites
 
@@ -66,17 +44,17 @@ At this point, the only way to install this repository is manual. Eventually, th
 Nonetheless, this kind of installation is as simple as cloning this repository. Virtually all Git and GitHub version control tools are capable of doing that. Through the console, we can use the command below, but other ways are also fine.
 
 ```bash
-git clone https://github.com/opprDev/repo-template-datasets.git
+git clone https://github.com/opprDev/repos-importer.git
 ```
 
 Optionally, the module/directory can be installed into the designated Python interpreter by moving it into the site-packages directory at the respective Python directory.
 
 ### Demonstration
 
-Please, feel free to try out our demo. It is a script called `demo.py` at the `src/` directory. It can be used as follows:
+Please, feel free to try out our solution. It is a script called `main.py` at the `src/` directory. It can be used as follows:
 
 ```bash
-python src/demo.py
+python src/main.py
 ```
 
 Just keep in mind this is just a demo, so it does nothing more than downloading data to an arbitrary destination directory if the directory does not exist or does not have any content. Also, we did our best to make the demo as user-friendly as possible, so, above everything else, have fun! 😁
@@ -95,7 +73,7 @@ This project exists thanks to all the people who [contribute](CONTRIBUTING.md). 
 
 ### Issuer
 
-Either as something that seems missing or any need for support, just open a [new issue](https://github.com/opprDev/repo-template-datasets/issues/new). Regardless of being a simple request or a fully-structured feature, we will do our best to understand them and, eventually, solve them.
+Either as something that seems missing or any need for support, just open a [new issue](https://github.com/opprDev/repos-importer/issues/new). Regardless of being a simple request or a fully-structured feature, we will do our best to understand them and, eventually, solve them.
 
 ### Developer
 
@@ -109,13 +87,11 @@ The current information will summarize important items of this repository. In th
 
 The following list, represents the set of related repositories for the presented one:
 
-- [`dataset-uta4-sus`](https://github.com/MIMBCD-UI/dataset-uta4-sus)
+- [`medical-image-downloader`](https://github.com/opprDev/medical-image-downloader)
 
-- [`dataset-uta4-nasa-tlx`](https://github.com/MIMBCD-UI/dataset-uta4-nasa-tlx)
+- [`spot-the-difference`](https://github.com/opprDev/spot-the-difference)
 
-- [`dataset-uta4-time`](https://github.com/MIMBCD-UI/dataset-uta4-time)
-
-- [`dataset-uta4-rates`](https://github.com/MIMBCD-UI/dataset-uta4-rates)
+- [`SimpleCloud`](https://github.com/opprDev/SimpleCloud)
 
 ### Dataset Resources
 
@@ -127,7 +103,7 @@ Copyright &copy; 2019 [oppr](https://oppr.io)
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-The [`repo-template-datasets`](https://github.com/opprDev/repo-template-datasets) repository is distributed under the terms of [GNU AGPLv3](LICENSE) license and [CC-BY-SA-4.0](COPYING) copyright. Permissions of this license are conditioned on making available complete elements from this repository of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved.
+The [`repos-importer`](https://github.com/opprDev/repos-importer) repository is distributed under the terms of [GNU AGPLv3](LICENSE) license and [CC-BY-SA-4.0](COPYING) copyright. Permissions of this license are conditioned on making available complete elements from this repository of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved.
 
 ### Team
 
@@ -137,10 +113,9 @@ Our team brings everything together sharing ideas and the same purpose, developi
 
 * Francisco Maria Calisto [ [Website](http://www.franciscocalisto.me/) | [ResearchGate](https://www.researchgate.net/profile/Francisco_Maria_Calisto) | [GitHub](https://github.com/FMCalisto) | [Twitter](https://twitter.com/FMCalisto) | [LinkedIn](https://www.linkedin.com/in/fmcalisto/) ]
 
-* Luís Ribeiro Gomes
-
 #### Participants
 
+* Luís Ribeiro Gomes
 * Bruno Oliveira
 * Carlos Santiago
 * Jacinto C. Nascimento
