@@ -15,7 +15,7 @@ def download_all_from_user(user: str):
 
     while next_page:
 
-        url = f"https://api.github.com/users/FMCalisto/gists?page=1"
+        url = f"https://api.github.com/users/opprDev/gists?page=1"
 
         response = requests.get(url)
 
